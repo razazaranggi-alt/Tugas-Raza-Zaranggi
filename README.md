@@ -1,2 +1,3 @@
 # Tugas-Raza-Zaranggi
 Tugas  materi rekursi
+Program ini menghitung hasil perkalian rekursif beruntun dari suatu bilangan n turun hingga 1 dengan membedakan perlakuan antara bilangan ganjil dan genap: fungsi fungsi(int n) menggunakan base case n <= 1 untuk menghentikan rekursi dan mengembalikan nilai 1, sedangkan pada tiap langkah rekursifnya, program memeriksa sisa bagi n % 2 == 0 untuk mengalikan pemanggilan fungsi(n - 1) dengan nilai setengahnya (n / 2) jika n bernilai genap maka program akan mengembalikan (n / 2) * fungsi(n - 1) dan jika n bernilai ganjil maka program akan mengembalikan n * fungsi(n - 1). 
